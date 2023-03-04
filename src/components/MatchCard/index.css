@@ -1,0 +1,56 @@
+.match-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 27%;
+  margin: 8px;
+  background-color: #060a13;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 3;
+  font-family: serif;
+  padding: 12px;
+}
+img {
+  width: 120px;
+  height: 130px;
+}
+.competent-name {
+  font-size: 23px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+.result {
+  font-weight: 600;
+  font-size: 21px;
+  text-align: center;
+  line-height: 2;
+}
+
+.lost {
+  font-size: 26px;
+  font-weight: 800;
+  color: #e31a1a;
+}
+.win {
+  font-size: 26px;
+  font-weight: 800;
+  color: #18ed66;
+}
+
+@media (max-width: 992px) {
+  .match-card {
+    width: 45%;
+  }
+}
+@media (min-width: 992px) {
+  .match-card {
+    width: 30%;
+    line-height: 2.5;
+  }
+}
+@media (max-width: 576px) {
+  .match-card {
+    width: 100%;
+  }
+}
